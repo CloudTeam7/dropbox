@@ -5,7 +5,7 @@ require 'open-uri'
 class AssetsController < ApplicationController 
   before_filter :authenticate_user!  #authenticate for users before any methods is called 
   
-      
+  # git    
   def index 
     @assets = current_user.assets      
   end
